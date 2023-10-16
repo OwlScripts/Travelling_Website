@@ -36,60 +36,60 @@ You can view different pages of this project by clicking on the following GitHub
   </tr>
   <tr style="background-color: #eff6ff;">
     <td>:hash: :one: Home Page</td>
-    <td><a href="https://OwlScripts.github.io/Travelling-Website/homePage/HomePage.html">Home Page </a></td>
+    <td><a href="https://OwlScripts.github.io/Travelling_Website/homePage/HomePage.html">Home Page </a></td>
   </tr>
   <tr style="background-color: #f2f2f2;">
     <td>:hash: :two: Tour Home</td>
-    <td><a href="https://OwlScripts.github.io/Travelling-Website/tourHome/tourHome.html">Tour Home</a></td>
+    <td><a href="https://OwlScripts.github.io/Travelling_Website/tourHome/tourHome.html">Tour Home</a></td>
   </tr>
   <tr style="background-color: #eff6ff;">
     <td>:hash: :three: Tour Category</td>
-    <td><a href="https://OwlScripts.github.io/Travelling-Website/tourCategory/tourCategory.html">Tour Category</a></td>
+    <td><a href="https://OwlScripts.github.io/Travelling_Website/tourCategory/tourCategory.html">Tour Category</a></td>
   </tr>
 
   <tr style="background-color: #f2f2f2;">
     <td>:hash: :four: Tour Details</td>
-    <td><a href="https://OwlScripts.github.io/Travelling-Website/TourDetails/tourDetails.html">Tour Details</a></td>
+    <td><a href="https://OwlScripts.github.io/Travelling_Website/TourDetails/tourDetails.html">Tour Details</a></td>
   </tr>
   <tr style="background-color: #eff6ff;">
     <td>:hash: :five: Visa Home</td>
-    <td><a href="https://OwlScripts.github.io/Travelling-Website/visaHome/visaHome.html">Visa Home</a></td>
+    <td><a href="https://OwlScripts.github.io/Travelling_Website/visaHome/visaHome.html">Visa Home</a></td>
   </tr>
     <tr style="background-color: #f2f2f2;">
     <td>:hash: :six: Visa Post</td>
-    <td><a href="https://OwlScripts.github.io/Travelling-Website/visaPost/visaPost.html">Visa Post</a></td>
+    <td><a href="https://OwlScripts.github.io/Travelling_Website/visaPost/visaPost.html">Visa Post</a></td>
   </tr>
     <tr style="background-color: #eff6ff;">
     <td>:hash: :seven: Visa Details</td>
-    <td><a href="https://OwlScripts.github.io/Travelling-Website/visaDetails/visaDetails.html">Visa Details</a></td>
+    <td><a href="https://OwlScripts.github.io/Travelling_Website/visaDetails/visaDetails.html">Visa Details</a></td>
   </tr>
   <tr style="background-color: #f2f2f2;">
     <td> :hash: :eight: Hotel Home</td>
-    <td><a href="https://OwlScripts.github.io/Travelling-Website/HotelHome/Hotel-Home.html">Hotel Home</a></td>
+    <td><a href="https://OwlScripts.github.io/Travelling_Website/HotelHome/Hotel-Home.html">Hotel Home</a></td>
   </tr>
   <tr style="background-color: #eff6ff;">
     <td> :hash: :nine: Hotel List</td>
-    <td><a href="https://OwlScripts.github.io/Travelling-Website/hotelList/Hotel-List.html">Hotel List</a></td>
+    <td><a href="https://OwlScripts.github.io/Travelling_Website/hotelList/Hotel-List.html">Hotel List</a></td>
   </tr>
     <tr style="background-color: #f2f2f2;">
     <td>:hash: :keycap_ten: Hotel Details</td>
-    <td><a href="https://OwlScripts.github.io/Travelling-Website/HotelDetails/Hotel-Details.html">Hotel Details</a></td>
+    <td><a href="https://OwlScripts.github.io/Travelling_Website/HotelDetails/Hotel-Details.html">Hotel Details</a></td>
   </tr>
     <tr style="background-color: #eff6ff;">
     <td>:hash: :one::one: About Us</td>
-    <td><a href="https://OwlScripts.github.io/Travelling-Website/aboutUs/aboutUs.html">About Us</a></td>
+    <td><a href="https://OwlScripts.github.io/Travelling_Website/aboutUs/aboutUs.html">About Us</a></td>
   </tr>
   <tr style="background-color: #f2f2f2;">
     <td>:hash: :one::two: Contact Us</td>
-    <td><a href="https://OwlScripts.github.io/Travelling-Website/ContactUs/ContactUs.html">Contact Us</a></td>
+    <td><a href="https://OwlScripts.github.io/Travelling_Website/ContactUs/ContactUs.html">Contact Us</a></td>
   </tr>
   <tr style="background-color: #eff6ff;">
     <td>:hash: :one::three: Blog Post</td>
-    <td><a href="https://OwlScripts.github.io/Travelling-Website/blogPost/blogPost.html">Blog Post</a></td>
+    <td><a href="https://OwlScripts.github.io/Travelling_Website/blogPost/blogPost.html">Blog Post</a></td>
   </tr>
     <tr style="background-color: #f2f2f2;">
     <td>:hash: :one::four: Blog Home</td>
-    <td><a href="https://OwlScripts.github.io/Travelling-Website/HomeBlog/BlogHome.html">Blog Home</a></td>
+    <td><a href="https://OwlScripts.github.io/Travelling_Website/HomeBlog/BlogHome.html">Blog Home</a></td>
   </tr>
 
 
