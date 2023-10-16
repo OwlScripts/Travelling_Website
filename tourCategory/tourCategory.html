@@ -26,8 +26,8 @@
         <div class="main-nav container">
             <div class="hamburger-container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" href="#">
@@ -44,14 +44,15 @@
                     </li>
                     <li class="dropdown header-li nav-item ms-lg-4  p-0">
                         <a href="#"></a>
-                        <button class="btn btn-secondary dropdown-toggle border-0 " type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <button class="btn btn-secondary dropdown-toggle border-0 " type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             تور
                         </button>
                         <ul class="dropdown-menu container mt-4  border-0 rounded-4 p-lg-2">
                             <li class="row">
                                 <ul class="col-6  col-lg-2">
-                                    <li><a class="dropdown-ul-tittle h6" href="../tourHome/tourHome.html" target="_blank">
+                                    <li><a class="dropdown-ul-tittle h6" href="../tourHome/tourHome.html"
+                                            target="_blank">
                                             تور خارجی </a></li>
                                     <li><a class="dropdown-item" href="../tourHome/tourHome.html" target="_blank">تور
                                             ترکیه</a></li>
@@ -67,7 +68,8 @@
                                             تایلند</a></li>
                                 </ul>
                                 <ul class="col-6  col-lg-2">
-                                    <li><a class="dropdown-ul-tittle h6" href="../tourHome/tourHome.html" target="_blank">
+                                    <li><a class="dropdown-ul-tittle h6" href="../tourHome/tourHome.html"
+                                            target="_blank">
                                             تور داخلی </a></li>
                                     <li><a class="dropdown-item" href="../tourHome/tourHome.html" target="_blank">تور
                                             کیش</a></li>
@@ -83,7 +85,8 @@
                                             اصفهان</a></li>
                                 </ul>
                                 <ul class="col-6  col-lg-3 mt-4 mt-lg-0 ">
-                                    <li><a class="dropdown-ul-tittle h6" href="../tourHome/tourHome.html" target="_blank">
+                                    <li><a class="dropdown-ul-tittle h6" href="../tourHome/tourHome.html"
+                                            target="_blank">
                                             تور زمینی </a></li>
                                     <li><a class="dropdown-item" href="../tourHome/tourHome.html" target="_blank">تور
                                             ترکیه
@@ -128,7 +131,7 @@
                                         </a></li>
                                 </ul>
                             </li>
-    
+
                         </ul>
                     </li>
                     <li class="header-li nav-item ms-lg-4 ">
@@ -151,7 +154,7 @@
                             تماس با ما
                         </a>
                     </li>
-    
+
                 </ul>
             </div>
             <!-- end  navbar-collapse  -->
@@ -183,7 +186,7 @@
                         <li class="breadcrumb-item active text-white" aria-current="page">استانبول</li>
                     </ol>
                 </div>
-                <h1 class="page-name h5 text-white">استانبول</h1>
+                <h1 class="page-name h5 text-white" id="PageTittle">&nbsp</h1>
             </div>
         </div>
     </section>
@@ -805,6 +808,19 @@
         crossorigin="anonymous"></script>
 
     <script>
+        let tittleText = "   استانبول";
+
+        function displayText() {
+            var tag = document.getElementById("PageTittle");
+            tag.innerHTML += tittleText.charAt(0);
+            tittleText = tittleText.substring(1);
+
+            if (tittleText.length > 0) {
+                setTimeout(displayText, 80);
+            }
+        }
+
+        displayText();
         const QA_events = () => {
             const accordionButtons = document.querySelectorAll('.accordion-button');
             const accordionHeaders = document.querySelectorAll('.accordion-header');

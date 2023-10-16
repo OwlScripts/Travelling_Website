@@ -182,7 +182,7 @@
                     <li class="breadcrumb-item active text-white" aria-current="page">مجله گردشگری</li>
                 </ol>
             </div>
-            <h1 class="page-name h5 text-white">مجله گردشگری</h1>
+            <h1 class="page-name h5 text-white" id="PageTittle"> &nbsp</h1>
         </div>
     </section>
 
@@ -541,6 +541,20 @@
         };
 
         Header_events()
+
+        let tittleText = "مجله گردشگری";
+
+        function displayText() {
+            var tag = document.getElementById("PageTittle");
+            tag.innerHTML += tittleText.charAt(0);
+            tittleText = tittleText.substring(1);
+
+            if (tittleText.length > 0) {
+                setTimeout(displayText, 80);
+            }
+        }
+
+        displayText();
     </script>
 </body>
 

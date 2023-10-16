@@ -248,7 +248,7 @@
 
                 </ol>
             </div>
-            <h1 class="page-name h5 text-white">هتل گلدن ایج استانبول</h1>
+            <h1 class="page-name h5 text-white" id="PageTittle">&nbsp</h1>
         </div>
         <div class="header-star-text w-100">
             <div class="header-star-text-stars">
@@ -944,6 +944,20 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script>
+        let tittleText = " هتل گلدن ایج استانبول";
+
+        function displayText() {
+            var tag = document.getElementById("PageTittle");
+            tag.innerHTML += tittleText.charAt(0);
+            tittleText = tittleText.substring(1);
+
+            if (tittleText.length > 0) {
+                setTimeout(displayText, 80);
+            }
+        }
+
+        displayText();
+
         const QA_events = () => {
             const accordionButtons = document.querySelectorAll('.accordion-button');
             const accordionHeaders = document.querySelectorAll('.accordion-header');
@@ -1041,6 +1055,8 @@
         };
 
         Header_events()
+
+
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
