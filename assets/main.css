@@ -4241,7 +4241,8 @@ li.breadcrumb-item:nth-child(3)>a:nth-child(1) {
 
 /* map circles */
 /* circles */
-#tourHomePage .image-container .circles {
+#tourHomePage .image-container .circles,
+#tourCategoryPage .image-container .circles {
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -4253,84 +4254,100 @@ li.breadcrumb-item:nth-child(3)>a:nth-child(1) {
     cursor: pointer;
 }
 
-#tourHomePage .circles.bg-purple {
+#tourHomePage .circles.bg-purple,
+#tourCategoryPage .circles.bg-purple {
     opacity: 0;
     background-color: #7D5AB7;
     box-shadow: 0 0 0 0px rgba(125, 90, 183, 0.1), 0 0 0 4px rgba(125, 90, 183, 0.4), 0 0 0 8px rgba(125, 90, 183, 0.2);
 }
 
-#tourHomePage .circles.bg-yellow {
+#tourHomePage .circles.bg-yellow,
+#tourCategoryPage .circles.bg-yellow {
     opacity: 0;
     background-color: #FCC72C;
     box-shadow: 0 0 0 0px rgba(252, 199, 44, 0.1), 0 0 0 4px rgba(252, 199, 44, 0.4), 0 0 0 8px rgba(252, 199, 44, 0.2);
 }
 
-#tourHomePage .circles.bg-blue {
+#tourHomePage .circles.bg-blue ,
+#tourCategoryPage .circles.bg-blue {
     opacity: 0;
     background-color: #00BDEF;
     box-shadow: 0 0 0 0px rgba(0, 189, 239, 0.1), 0 0 0 4px rgba(0, 189, 239, 0.4), 0 0 0 8px rgba(0, 189, 239, 0.2);
 }
 
-#tourHomePage .circles.active {
+#tourHomePage .circles.active ,
+#tourCategoryPage  .circles.active {
     opacity: 1;
 }
 
-#tourHomePage .circle-1 {
+#tourHomePage .circle-1  ,
+ #tourCategoryPage .circle-1{
     top: 23%;
     left: 23%;
 }
 
-#tourHomePage .circle-2 {
+#tourHomePage .circle-2 ,
+#tourCategoryPage .circle-2 {
     top: 13%;
     left: 12%;
 }
 
-#tourHomePage .circle-3 {
+#tourHomePage .circle-3  ,
+ #tourCategoryPage .circle-3{
     top: 62%;
     left: 29%;
 }
 
-#tourHomePage .circle-4 {
+#tourHomePage .circle-4 ,
+#tourCategoryPage .circle-4 {
     top: 77%;
     left: 26%;
 }
 
-#tourHomePage .circle-5 {
+#tourHomePage .circle-5  ,
+ #tourCategoryPage .circle-5{
     top: 28%;
     left: 43%;
 }
 
-#tourHomePage .circle-6 {
+#tourHomePage .circle-6  ,
+ #tourCategoryPage .circle-6{
     top: 45%;
     left: 40%;
 }
 
-#tourHomePage .circle-7 {
+#tourHomePage .circle-7,
+#tourCategoryPage .circle-7 {
     top: 70%;
     left: 52%;
 }
 
-#tourHomePage .circle-8 {
+#tourHomePage .circle-8,
+#tourCategoryPage .circle-8{
     top: 43%;
     left: 61%;
 }
 
-#tourHomePage .circle-9 {
+#tourHomePage .circle-9 ,
+#tourCategoryPage .circle-9{
     top: 18%;
     left: 55%;
 }
 
-#tourHomePage .circle-10 {
+#tourHomePage .circle-10,
+#tourCategoryPage .circle-10 {
     top: 40%;
     left: 71%;
 }
 
-#tourHomePage .circle-11 {
+#tourHomePage .circle-11,
+#tourCategoryPage .circle-11{
     top: 26%;
     left: 78%;
 }
 
-#tourHomePage .circle-12 {
+#tourHomePage .circle-12,
+#tourCategoryPage .circle-12 {
     top: 78%;
     left: 83%;
 }
@@ -5047,6 +5064,11 @@ li.breadcrumb-item:nth-child(3)>a:nth-child(1) {
 
 #visaHomePage .worldmap-img {
     aspect-ratio: 5/2;
+    filter: contrast(0.25);
+    opacity: 0.4;
+}
+
+#tourCategoryPage .worldmap-img {
     filter: contrast(0.25);
     opacity: 0.4;
 }
